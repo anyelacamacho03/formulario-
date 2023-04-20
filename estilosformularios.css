@@ -9,5 +9,6 @@ body{
   margin:auto;
   background:#FF8033; 
   border-radius:7px;
-
+  width:60%;
+  max-width:500px;
 }
