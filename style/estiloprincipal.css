@@ -73,11 +73,11 @@
 }
 
 .elemento2:checked ~ .lienzo_contenedor{
-  transform: translatex(-600px);
+  transform: translatex(-700px);
 }
 
 .elemento3:checked ~ .lienzo_contenedor{
-  transform: translatex(-1200px);
+  transform: translatex(-1400px);
 }
 
 .controles{
