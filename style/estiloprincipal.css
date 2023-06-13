@@ -99,7 +99,45 @@
  display: block;
 }
 
+.tienda{
+  display : grid;
+  grid-template: repeat(3,300px) / repeat(3, 300px);
+  justify-content: center;
+  grid-gap:16px;
+  width: 100%;
+  height: auto;
+}
 
+.tienda article {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-flow: wrap;
+  border: solid;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+
+
+.espacio{
+  position: relative;
+  height: 20px;
+}
+
+.piedepagina{
+  display: flex;
+  justify-content:center;
+  position: relative;
+  heght: 105px;
+  background: -moz-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(168,197,158,1) 39%, rgba(171,208,200,1) 62%, rgba(173,217,235,1) 81%, rgba(173,217,235,1) 98%, rgba(117,137,12,1) 100%);
+  align-content: center;
+}
+
+.piedepagina footer {
+  text-align:center;
+  color:black;
+}
 
 
 
